@@ -73,6 +73,11 @@ body {
     color: #FFF;
 }
 
+.link-download {
+    float: left;
+    margin-right: 15px;
+}
+
 @media (min-width: 768px) {
     .navbar-brand {
         padding: 20px 15px;
