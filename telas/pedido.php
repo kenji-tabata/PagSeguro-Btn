@@ -59,7 +59,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><a href="#">#4235125</a></td>
+                                    <td><a href="#4235125" data-toggle="modal" data-target="#pedido-4235125">#4235125</a></td>
                                     <td>Laudo Plus - Georgi Facello</td>
                                     <td>14/07/2016 - 11:00hs</td>
                                     <td>R$ 43,00</td>
@@ -76,19 +76,155 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><a href="#">#1253658</a></td>
+                                    <td><a href="#1253658" data-toggle="modal" data-target="#pedido-1253658">#1253658</a></td>
                                     <td>Laudo Plus - Mara Facello</td>
                                     <td>13/07/2016 - 10:35hs</td>
                                     <td>R$ 43,00</td>
                                     <td>
                                         <a class="link-download" href="#" title="Download">
                                             <span class="glyphicon glyphicon glyphicon-cloud-download" aria-hidden="true"></span>
-                                             Download
+                                            Download
                                         </a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <!-- Modal 1253658-->
+                        <div class="modal fade" id="pedido-1253658" tabindex="-1" role="dialog" aria-labelledby="pedido-1253658">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="label-1253658">Pedido #1253658</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="2">Detalhes do pedido</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Código da transação:</th>
+                                                        <td>0E4B359A8874484E8B80F46F02304C09</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Status do pagamento:</th>
+                                                        <td>Pago</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Ultima atualização:</th>
+                                                        <td>14/07/2016 - 12:00hrs</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Status do envio:</th>
+                                                        <td>Enviado por e-mail</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Data do envio:</th>
+                                                        <td>14/07/2016 - 13:00hrs</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Nome:</th>
+                                                        <td>Georgi Facello</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>E-mail:</th>
+                                                        <td>georgi.facello@mail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Telefone:</th>
+                                                        <td>(11) 9999-0000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Item:</th>
+                                                        <td>Laudo Plus - Mara Facello</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Valor:</th>
+                                                        <td>R$ 43,00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal 4235125-->
+                        <div class="modal fade" id="pedido-4235125" tabindex="-1" role="dialog" aria-labelledby="pedido-4235125">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="label-4235125">Pedido #4235125</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="2">Detalhes do pedido</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Código da transação:</th>
+                                                        <td>BC9CA211DBA64715B6FFBFA3EAC506FE</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Status do pagamento:</th>
+                                                        <td>Aguardando pagamento</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Ultima atualização:</th>
+                                                        <td>14/07/2016 - 11:00hrs</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Status do envio:</th>
+                                                        <td>Aguardando pagamento</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Data do envio:</th>
+                                                        <td>Aguardando pagamento</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Nome:</th>
+                                                        <td>Georgi Facello</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>E-mail:</th>
+                                                        <td>georgi.facello@mail.com</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Telefone:</th>
+                                                        <td>(11) 9999-0000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Item:</th>
+                                                        <td>Laudo Plus - Georgi Facello</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Valor:</th>
+                                                        <td>R$ 43,00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class=" col-md-offset-3 col-md-6">
@@ -102,7 +238,7 @@
                                 Hipercard, Aura, Elo, PLENOCard, PersonalCard, BrasilCard, FORTBRASIL, Cabal, Mais!,
                                 Avista, Grandcard, Sorocred, Bradesco, Itaú, Banco do Brasil, Banrisul, Banco HSBC,
                                 saldo em conta PagSeguro e boleto."
-                            >
+                                >
                         </a>
                     </div>
                 </div>
